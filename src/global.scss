@@ -24,3 +24,20 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-header{
+  padding: 20px;
+  box-shadow: none !important;
+}
+
+ion-toolbar{
+  border-radius: 20px;
+  border: solid 1px grey;
+  -webkit-box-shadow: 0px 68px 101px -44px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 68px 101px -44px rgba(0,0,0,0.28);
+  box-shadow: 0px 68px 101px -44px rgba(0,0,0,0.28);
+}
+
+ion-content{
+  --background: transparent;
+}
